@@ -1,0 +1,23 @@
+{
+  "name": "ticker-stream",
+  "description": "a stream to push every given time",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/ticker-stream.git"
+  },
+  "homepage": "https://github.com/nbqx/ticker-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^0.4.2"
+  },
+  "devDependencies": {
+    "event-stream": "^3.1.5",
+    "tape": "^2.13.1"
+  }
+}
